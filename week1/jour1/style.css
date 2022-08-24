@@ -1,8 +1,12 @@
+header{
+  
+}
 nav{
     display: inline;
+    margin: 0;
 }
 ul {
-    list-style-type: none;
+  list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -17,7 +21,7 @@ ul {
   
   li a {
     display: block;
-    color: white;
+    color:white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -35,10 +39,41 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
+    margin: 0;
   }
+  
   main{
+    
     background-image:url("avenger2.jpg");
     background-repeat: no-repeat;
-    background-size: width=500;
-    Background-size: height=500;
+    background-size: 100%;
+    
+    
+  }
+  body{
+    margin: 0;
+    margin-top: 0;
+    position: relative;
+  }
+  #div2{
+    position: relative;
+    padding-top: 390px;
+    position: ;
+  }
+  #div1{
+    
+    position: relative;
+    top:46px;
+
+  }
+  h1{
+    color: white;
+    padding-left: 30px;
+
+  }
+  p{
+    color: #ffffcc
+    ;
+    width: 600px;
+    padding-left: 50px;
   }

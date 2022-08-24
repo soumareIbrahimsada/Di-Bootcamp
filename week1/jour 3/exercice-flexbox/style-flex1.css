@@ -1,0 +1,29 @@
+#contenant{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+    border: solid red 10px;
+    height: 500px;
+    
+}
+#contenant1{
+    margin-left: 5px;
+    width: 99%;
+    height: 100px;
+    background-color:  aqua;
+}
+#contenant2{
+    align-self: center;
+    width: 60%;
+    height: 230px;
+    background-color:  aqua;
+    
+}
+#contenant3{
+    margin-left: 5px;
+    width:  99%;
+    height: 100px;
+    background-color:  aqua;
+}
