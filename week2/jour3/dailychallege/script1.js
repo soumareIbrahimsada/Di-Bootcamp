@@ -4,3 +4,12 @@ let tab=["*","**","***","****","*****","******"];
 for (let i= 0; i< tab.length ;i++) {
     console.log(tab[i])
 }
+
+let etoile="*"
+for (let i= 0; i< 7 ;i++) {
+    console.log(etoile)
+    i=i+1
+    for (let j = 0; j <i; j++) {
+        etoile= etoile+"*"
+    }
+}
