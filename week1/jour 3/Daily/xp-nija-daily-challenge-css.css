@@ -1,0 +1,84 @@
+/* FIGURE 1*/
+body {
+     margin: 40px; 
+    } 
+
+
+.rouge{
+    background-color: red; 
+    color:black;
+     
+}
+.jaune{
+    background-color: yellow; 
+    color:black;
+}
+.vert{
+    background-color: green; 
+    color:black;
+}
+
+.contenant1 { 
+    grid-gap:10px 10px;
+    display: grid; 
+    width: 1200px;
+    grid-template-columns: repeat(5, 200px); 
+    grid-template-rows: repeat(5, 200px); 
+    grid-auto-flow: column; 
+    
+}
+/* FIGURE 2*/
+.contenant2{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(16, 100px);
+    grid-template-rows: repeat(5, 100PX);
+    grid-auto-flow: column; 
+    grid-gap:10px 10px;
+    width: 1200px; 
+}
+.blnanc{
+    background-color: #f6d9b5; 
+    color:black;
+     
+}
+.jaune1{ 
+    background-color: #f6d958 ; 
+    color:black;
+} 
+.vert-jaune{
+    background-color: yellow; 
+    color:black;
+}
+.vert1{
+        background-color: #00EE12; 
+        color:black;
+}
+/* FIGURE 3*/
+.contenant3 {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(16, 40px);
+    grid-template-rows: repeat(5, 40PX);
+    grid-auto-flow: column; 
+    width: 810px; 
+    height: 220px;
+    background-color: red;
+    margin-left: 5px;
+}
+.ligne1{
+    background-color: white; 
+    color:black;
+}
+.ligne2{
+    background-color:  #cb7375; 
+    color:black;
+}
+.ligne3{
+    background-color: #cb7375; 
+    color:black;
+}
+.ligne4{
+    background-color: red; 
+    color:black;
+}d
