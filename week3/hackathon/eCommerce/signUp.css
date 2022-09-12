@@ -102,29 +102,33 @@ nav ul li a{
 
 }
 
-
+.eForme{
+    padding: 15px 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.deroulant{
+    width: 100%;
+}
 #E1{
-   width: 100%;
+    width: 100%;
 }
-
+ 
 #E2{
-    width: 100%;  
+     width: 100%;  
 }
-#droite1{
-    display: inline;
-    padding-left: 10%;
+ 
+#numero{
+     width: 100%;
+     
+}
+#mail{
+     width: 100%;
+}
+#E4{
+    padding-left: 20%;
     text-decoration: none;
     color: white;
-}
-#droite2{
-    display: inline;
-    padding-left: 10%;
-    text-decoration: none;
-    color:white;
-   ;
-}
-#droite2:hover{
-    color: #555;
 }
 
 #E5{
@@ -136,14 +140,11 @@ nav ul li a{
     transition: background 0,4s;
 }
 
+
 #E5:hover{
     background: #555;
 }
-.eForme{
-    padding: 15px 0;
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
+
 /*grid-template-columns:col 3;
     grid-template-rows: col 1;
     grid-column: col 2;
@@ -153,4 +154,8 @@ nav ul li a{
     #eForme{
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+
+    
 }*/

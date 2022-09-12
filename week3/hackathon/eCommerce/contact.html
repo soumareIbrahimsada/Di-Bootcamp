@@ -42,18 +42,36 @@
     <!--nous evoyez un message-->
     <section class="formulaire">
         <form id="pforme" action="" method="post">
-            <label for="nom">Nom,Prénom</label>
+            <h2>Renseignerle formulaire ci-dessous pour entrez en contact avec nous.Ce sera un plaisir pour nous de vous lire <br>et d'apportez réponse a vos éventuelle préoccupation </h2>
+            <label for="nom">Nom,Prénom</label><br>
             <input type="text" name="nom" placeholder="Ibraim Sada SOUMARE" id="E1" class="eForme" required><br>
-            <label for="numero" required>Numéro WhatsApps</label>
+            <label for="numero" required>Numéro WhatsApps</label><br>
             <input type="tel" name="numero" placeholder="0022654614102" id="E2" class="eForme" ><br>
+            <label for="ee-mail">E-mail</label><br>
+            <input type="email" name="ee-mail" placeholder="soumareibrahimsada@gmail.com" id="E6" class="eForme" ><br>
             <label for="Mmessage"></label>
-            <textarea name="Mmessage" id="" cols="60" rows="10" id="E3" placeholder="Ecrivez votre méssage ici" required class="eForme"></textarea><br>
+            <textarea name="Mmessage"  cols="101" rows="10" id="E3" placeholder="Ecrivez votre méssage ici" required class="eForme"></textarea><br>
             <label for="resart"></label>
             <input type="reset" name="resart" id="E4" class="eForme">
             <label for="envois"></label>
-            <input type="submit" name="envois" id="E5" class="eForme">
+            <input type="submit" name="envois" id="E5" class="eForme" onclick="sendForm()">
         </form>
     </section>
+    <script>
+        function sendForm ()
+    {
+        var nom_prenom = document.getElementById("E1").value;
+        console.log(nom_prenom);
+        var numero_WhastApp = document.getElementById("E2").value;
+        console.log(numero_WhastApp);
+        var Mmessage = document.getElementById("E3").value;
+        console.log(Mmessage);
+        var eemail = document.getElementById("E6").value;
+        console.log(eemail);
+        
+    }
+</script>
+
 </body>
 </html>
 

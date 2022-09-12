@@ -91,7 +91,9 @@ nav ul li a{
     flex-basis: 33%;
     min-width: 250px;
     margin: auto;
+    
 }
+
 .col3 img{
     width: 100%;
     padding: 0 25px;
@@ -106,7 +108,11 @@ nav ul li a{
     flex-basis: 25%;
     min-width: 200px;
     padding: 15px;
+    transition: transform 0.4s;
 }
 .col4 img{
     width: 100%;
+}
+.col4:hover{
+    transform: translateY(-5px);
 }
