@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="contact.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<body>
+    <section class="headerSection">
+        <div class="container">
+            <header class="navbar">
+                <div class="logo">
+                    <img src="logo.png" alt="logo de ma boutique"  >
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Acceuil</a></li>
+                        <li><a href="product.html">Produits</a></li>
+                        <li><a href="aPropos.html">A propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="compte.html">Mon compte</a></li>
+                        <img src="cart.png" alt="cart icon" width="26px" >
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="row">
+            <div class="col2">
+                <h1>Apportez de la performence à votre motivation</h1>
+                <p>Parceque Le succès n'est pas q'une question de motivation, <br> vous dotez des meilleurs armes pour chaque combat</p>
+                <a href="index.html">Retournez à l'acceuil &#8594; </a>
+            </div>
+            <div class="col2">
+                <img src="banner.png" alt="bannière de la boutique">
+            </div>
+        
+        </div> 
+    </section>
+    <!--nous evoyez un message-->
+    <section class="formulaire">
+        <form id="pforme" action="" method="post">
+            <h2>Renseignerle formulaire ci-dessous pour entrez en contact avec nous.Ce sera un plaisir pour nous de vous lire <br>et d'apportez réponse a vos éventuelle préoccupation </h2>
+            <label for="nom">Nom,Prénom</label><br>
+            <input type="text" name="nom" placeholder="Ibraim Sada SOUMARE" id="E1" class="eForme" required><br>
+            <label for="numero" required>Numéro WhatsApps</label><br>
+            <input type="tel" name="numero" placeholder="0022654614102" id="E2" class="eForme" ><br>
+            <label for="ee-mail">E-mail</label><br>
+            <input type="email" name="ee-mail" placeholder="soumareibrahimsada@gmail.com" id="E6" class="eForme" ><br>
+            <label for="Mmessage"></label>
+            <textarea name="Mmessage"  cols="101" rows="10" id="E3" placeholder="Ecrivez votre méssage ici" required class="eForme"></textarea><br>
+            <label for="resart"></label>
+            <input type="reset" name="resart" id="E4" class="eForme">
+            <label for="envois"></label>
+            <input type="submit" name="envois" id="E5" class="eForme" onclick="sendForm()">
+        </form>
+    </section>
+    <script>
+        function sendForm ()
+    {
+        var nom_prenom = document.getElementById("E1").value;
+        console.log(nom_prenom);
+        var numero_WhastApp = document.getElementById("E2").value;
+        console.log(numero_WhastApp);
+        var Mmessage = document.getElementById("E3").value;
+        console.log(Mmessage);
+        var eemail = document.getElementById("E6").value;
+        console.log(eemail);
+        
+    }
+</script>
+
+</body>
+</html>
+
+
+
+
+    

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="signUp.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crée un compte compte</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="headerSection">
+        <div class="container">
+            <header class="navbar">
+                <div class="logo">
+                    <img src="logo.png" alt="logo de ma boutique"  >
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Acceuil</a></li>
+                        <li><a href="product.html">Produits</a></li>
+                        <li><a href="aPropos.html">A propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="compte.html">Mon compte</a></li>
+                        <img src="cart.png" alt="cart icon" width="26px" >
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="row">
+            <div class="col2">
+                <h1>Apportez de la performence à votre motivation</h1>
+                <p>Parceque Le succès n'est pas q'une question de motivation, <br> vous dotez des meilleurs armes pour chaque combat</p>
+                <a href="index.html">Retournez à l'acceuil &#8594; </a>
+            </div>
+            <div class="col2">
+                <img src="banner.png" alt="bannière de la boutique">
+            </div>
+        
+        </div> 
+    </section>
+    <!--nous evoyez un message-->
+    <section class="formulaire">
+        
+        <form id="pforme" action="" method="post">
+            <div id="E6"><i class="fa-solid fa-person-shelter fa-8x "></i></div>
+            <h2>Renseigner les infos ci-dessous pour <br> creer votre compte votre compte</h2>
+            <label for="nom">Nom d'utilisateur</label><br>
+            <input type="text" name="nom" placeholder="ibrahimsadasoumare" id="E1" class="eForme" required><br>
+            <label for="Mpassse" >Mot de passe</label><br>
+            <input type="password" name="Mpassse"  id="E2" class="eForme" required><br>
+            <label for="numero" required>Numéro WhatsApps</label><br>
+            <input type="tel" name="numero" placeholder="0022654614102"  class="eForme" required><br>
+            <label for="ee-mail">E-mail</label><br>
+            <input type="email" name="ee-mail" placeholder="soumareibrahimsada@gmail.com" id="mail"  class="eForme" required><br>
+
+            <label for="pays">Pays</label><br>
+            <select name="pays" class="deroulant"  required >
+                <option type="radio"  value="Burkina Faso" class="eForme" >Burkina Faso</option>
+                <option type="radio"   value="Code d'ivoire"  class="eForme" >Code d'ivoire</option>
+                <optiontype="radio"   value="Mali" class="eForme">Mali</option>
+                <option type="radio"   value="Sénégal"  class="eForme">Sénégal</option>
+                <option type="radio"   value="Mauritanie"  class="eForme">Mauritanie</option>
+             </select><br>
+             <label for="pays">Sport pratiqué</label><br>
+             <select name="sport" class="deroulant"  required >
+                <option value="course" class="eForme" >course</option>
+                <option value="football"  class="eForme" >football</option>
+                <option value="musculation" class="eForme">musculation</option>
+                <option value="velo"  class="eForme">velo</option>
+                <option value="basket"   value="Mauritanie"  class="basket">Mauritanie</option>
+             </select><br>
+            <input type="checkbox" name="remenber" id="E3" class="eForme">
+            <label for="remenber">se souvenir de moi</label> <a href="" id="E4">mot de passe oublié?</a><br>
+            <input type="button" value="se connecté" ondblclick="msg(bienvenue dans les details de votre compte)" class="eForme" id="E5">
+        </form>
+    </section>
+</body>
+</html>
+
+
+
+
+    
