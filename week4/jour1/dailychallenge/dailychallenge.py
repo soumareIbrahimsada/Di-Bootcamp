@@ -16,5 +16,4 @@ for i in range(taille-1):
 melange=''.join(random.sample(phrase,taille))
 print("nouvelle chaine",melange)
 
-
         
